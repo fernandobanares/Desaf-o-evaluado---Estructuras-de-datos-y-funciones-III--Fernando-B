@@ -13,11 +13,6 @@ minutos + 2 minutos por cada ingrediente, excluyendo masa y salsa. (3 puntos)
 3. Una opción que permita mostrar los ingredientes que actualmente tiene la pizza. (1
 punto) """
 
-""" masa = {"m1":"Tradicional", "m2":"Delgada", "m3":"Borde de queso"}
-salsa = {"s1":"Salsa de tomate", "s2":"Salsa Alfredo", "s3":"Salsa barbecue", "s4":"Salsa pesto"}
-ingredientes = {"i1":"Tomate","i2":"Champiñones","i3":"Aceituna","i4":"Cebolla","i5":"Pollo","i6":"Jamón","i7":"Carne","i8":"Tocino","i9":"Queso"} """
-
-
 masa = ["Tradicional", "Delgada", "Borde de queso"]
 salsa = ["Salsa de tomate", "Salsa Alfredo", "Salsa barbecue", "Salsa pesto"]
 ingredientes = ["Tomate", "Champiñones", "Aceituna", "Cebolla", "Pollo", "Jamón", "Carne", "Tocino", "Queso"]
