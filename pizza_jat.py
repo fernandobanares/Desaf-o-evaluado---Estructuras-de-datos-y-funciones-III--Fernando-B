@@ -90,19 +90,6 @@ def calcular_tiempo_preparacion():
     tiempo_total = tiempo_base + tiempo_por_ingrediente
     return tiempo_total
 
-def confirmar_orden():
-    while True:
-        confirmar = input("¿Desea confirmar su orden? (sí/no): ").lower()
-        if confirmar == "sí":
-            tiempo_preparacion = calcular_tiempo_preparacion()
-            print(f"Su orden ha sido confirmada. La pizza estará lista en aproximadamente {tiempo_preparacion} minutos.")
-            break
-        elif confirmar == "no":
-            print("Orden cancelada.")
-            break
-        else:
-            print("Respuesta no válida, por favor ingrese 'sí' o 'no'.")
-
 preparar_pizza()
 seleccionar_ingredientes()
 tiempo_preparacion = calcular_tiempo_preparacion()
